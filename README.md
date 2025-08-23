@@ -19,12 +19,11 @@
 2025.8.8 bug修复，增加停车能量损失，增加管理页面ios轻应用(safari打开7777发送到桌面会生成轻应用)  
 2025.8.6 微信推送已支持内网穿透和ip中转，任何网络环境都可稳定使用  
   
-两种方法  
-# 1.直接部署镜像：  
+# 安装方法：直接部署镜像：  
 docker-compose.yml已集成中文teslamate和依赖容器  
 把docker-compose.yml放到系统任意目录，运行docker-compose up -d启动  
 teslamate设置和使用请参考官网，新安装的teslamate会数据不全，充电几次后即可正常  
-登录ip:7777管理推送  
+登录ip:7777管理推送，密码teslamate,可在yml里更改 
 <!-- 设置图片宽度为 300px -->
 <img src="https://github.com/user-attachments/assets/25959ec4-b4f2-4f0a-955f-e3299851b0cf?raw=true" alt="图片" width="300" /> <!-- 新增：HTML img 标签，设置 width 属性 -->
 <img src="https://github.com/user-attachments/assets/45f0be3e-885a-4e50-9c6f-7f415020dd98?raw=true" alt="微信图片_20250809110339" width="300" /> <!-- 修改：替换为 HTML img 标签，添加 width 属性 -->
