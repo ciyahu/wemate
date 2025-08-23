@@ -1,6 +1,6 @@
-<a href="http://wemate.ciyahu.com:1679/" target="_blank">WeMate 网站</a>
-项目被人商业化，暂时关闭源码。
-程序完全本地化运行，开启穿透和中转时中转服务器仅中转已加密数据，token储存在本地   
+<a href="http://wemate.ciyahu.com:1679/" target="_blank">WeMate 网站</a>  
+项目被人商业化，暂时关闭源码。  
+程序完全免费和本地化运行，开启穿透和中转时中转服务器仅中转已加密数据，token储存在本地   
 欢迎大家分享各种体验和bug反馈   
 <img src="https://github.com/user-attachments/assets/b396f038-74b1-4781-b301-d3e53858cb50?raw=true" alt="图片" width="300" align="left" />  
 *  
