@@ -1,5 +1,5 @@
 <a href="http://wemate.ciyahu.com:1679/" target="_blank">WeMate 网站</a>
-
+项目被人商业化，暂时关闭源码。
 程序完全本地化运行，开启穿透和中转时中转服务器仅中转已加密数据，token储存在本地   
 欢迎大家分享各种体验和bug反馈   
 <img src="https://github.com/user-attachments/assets/b396f038-74b1-4781-b301-d3e53858cb50?raw=true" alt="图片" width="300" align="left" />  
@@ -38,4 +38,3 @@ teslamate设置和使用请参考官网，新安装的teslamate会数据不全�
 <img src="https://github.com/user-attachments/assets/35faa764-1479-4293-b6a8-882d61efdffb?raw=true" alt="微信图片_20250809112314" width="300" /> <!-- 修改：替换为 HTML img 标签，添加 width 属性 -->
 <img src="https://github.com/user-attachments/assets/b972e8fc-8850-4e45-8090-abfd0cc23eb6?raw=true" alt="微信图片_20250809112319" width="300" /> <!-- 修改：替换为 HTML img 标签，添加 width 属性 -->
 
-# 2.自行下载制作镜像：下载所有文件，用docker make镜像，部署  
