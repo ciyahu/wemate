@@ -2,7 +2,7 @@ version: "3"
 
 services:
   teslamate:
-    image: ccr.ccs.tencentyun.com/dhuar/teslamate:latest
+    image: teslamate/teslamate:latest
     restart: always
     environment:
       - ENCRYPTION_KEY=123456 
@@ -19,17 +19,17 @@ services:
       - all
 
   database:
-    image: ccr.ccs.tencentyun.com/dhuar/postgres:17
+    image: postgres:18-trixie
     restart: always
     environment:
       - POSTGRES_USER=teslamate
       - POSTGRES_PASSWORD=123456 
       - POSTGRES_DB=teslamate
     volumes:
-      - teslamate-db:/var/lib/postgresql/data
+      - teslamate-db:/var/lib/postgresql
 
   grafana:
-    image: ccr.ccs.tencentyun.com/dhuar/grafana:latest
+    image: teslamate/grafana:latest
     restart: always
     environment:
       - DATABASE_USER=teslamate
@@ -42,17 +42,15 @@ services:
       - teslamate-grafana-data:/var/lib/grafana
 
   mosquitto:
-    image: ccr.ccs.tencentyun.com/dhuar/eclipse-mosquitto:2
+    image: eclipse-mosquitto:2
     restart: always
     command: mosquitto -c /mosquitto-no-auth.conf
-    # ports:
-    #   - 1883:1883
     volumes:
       - mosquitto-conf:/mosquitto/config
       - mosquitto-data:/mosquitto/data
 
   wemate:
-    image: crpi-imfm7cwd6erou87s.cn-hangzhou.personal.cr.aliyuncs.com/ciyahu/can:wechat-teslamate-latest
+    image: ciyahu/wemate:latest
     restart: always
     environment:
       - DATABASE_USER=teslamate        
@@ -65,6 +63,7 @@ services:
       - 7777:7777
     volumes:
       - ./wemate:/app/config
+      - /var/run/docker.sock:/var/run/docker.sock
 
 
 volumes:
