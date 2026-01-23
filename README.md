@@ -4,8 +4,6 @@
   <img src="https://github.com/user-attachments/assets/e34a5f13-8335-400f-9cae-40b6f9ce22a0?raw=true" alt="图片" width="300" />
 </div>
 欢迎大家分享各种体验和bug反馈 
-<img src="https://github.com/user-attachments/assets/16293930-7e57-4522-baa3-80a3f9ef7dad?raw=true" alt="图片" width="300" /> <!-- 新增：HTML img 标签，设置 width 属性 -->
-<br>
 #更新 
 2025.12.29 2025年度总结  
 2025.12.9  bug修复  
