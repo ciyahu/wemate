@@ -1,8 +1,8 @@
 
 程序完全免费和本地化运行，开启穿透和中转时中转服务器仅中转已加密数据，token储存在本地   
 欢迎大家分享各种体验和bug反馈 
-![微信图片_20260123110506](https://github.com/user-attachments/assets/16293930-7e57-4522-baa3-80a3f9ef7dad)
-  
+<img src="https://github.com/user-attachments/assets/16293930-7e57-4522-baa3-80a3f9ef7dad?raw=true" alt="图片" width="300" /> <!-- 新增：HTML img 标签，设置 width 属性 -->
+<br>
 #更新 
 2025.12.29 2025年度总结
 2025.12.9  bug修复
