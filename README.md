@@ -3,7 +3,7 @@
 欢迎大家分享各种体验和bug反馈 
 
 <img src="https://github.com/user-attachments/assets/b396f038-74b1-4781-b301-d3e53858cb50?raw=true" alt="图片" width="300" align="left" />  
-*  
+  *  
 *  
 *  
 *  
