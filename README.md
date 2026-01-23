@@ -3,11 +3,9 @@
 <div align="left">
   <img src="https://github.com/user-attachments/assets/e34a5f13-8335-400f-9cae-40b6f9ce22a0?raw=true" alt="图片" width="300" />
 </div>
-<br>
-欢迎大家分享各种体验和bug反馈 
-<br>
-# 更新   
-<br>
+欢迎大家分享各种体验和bug反馈 <br>
+
+# 更新   <br>
 2025.12.29 &nbsp;&nbsp; 2025年度总结 <br>
 2025.12.9 &nbsp;&nbsp;&nbsp; bug修复 <br>
 2025.12.4 &nbsp;&nbsp;&nbsp; ui优化,Grafana重复面板修复 <br>
