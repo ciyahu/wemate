@@ -1,7 +1,7 @@
 
 程序完全免费和本地化运行，开启穿透和中转时中转服务器仅中转已加密数据，token储存在本地 
 <div align="left">
-  <img src="https://github.com/user-attachments/assets/e34a5f13-8335-400f-9cae-40b6f9ce22a0?raw=true" alt="图片" width="300" />
+  <img src="https://github.com/user-attachments/assets/d499d00c-7657-4c7d-92e8-4fa9cc856591?raw=true" alt="图片" width="300" />
 </div>
 欢迎大家分享各种体验和bug反馈 <br>
 
