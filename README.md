@@ -26,11 +26,6 @@
 2025.8.14 &nbsp;&nbsp; bug修复，增加了全平台支持(ARM64,apple等)，增加了地理围栏报警，增加了车辆编号选择 <br>
 2025.8.8 &nbsp;&nbsp;&nbsp;&nbsp; bug修复，增加停车能量损失，增加管理页面ios轻应用(safari打开7777发送到桌面会生成轻应用) <br>
 2025.8.6 &nbsp;&nbsp;&nbsp;&nbsp; 微信推送已支持内网穿透和ip中转，任何网络环境都可稳定使用
-![微信图片_20260311112652](https://github.com/user-attachments/assets/9eb71968-4e6c-4a7e-bcbd-5fcaf978a20c)
-
-![微信图片_20260311112657](https://github.com/user-attachments/assets/32e4a4a1-59cc-40a7-a441-cf60bc1621cf)
-![微信图片_20260311112700](https://github.com/user-attachments/assets/0a9407cb-8579-499c-95ae-b914bc5137bb)
-
 
 # 安装方法：直接部署镜像：  
 docker-compose.yml已集成原版teslamate和依赖容器  
@@ -38,7 +33,6 @@ docker-compose.yml已集成原版teslamate和依赖容器
 teslamate设置和使用请参考官网，新安装的teslamate会数据不全，充电几次后即可正常  
 登录ip:7777管理推送，密码teslamate,可在yml里更改 
 <!-- 设置图片宽度为 300px -->
-<img src="https://github.com/user-attachments/assets/25959ec4-b4f2-4f0a-955f-e3299851b0cf?raw=true" alt="图片" width="300" /> <!-- 新增：HTML img 标签，设置 width 属性 -->
 <img src="https://github.com/user-attachments/assets/9eb71968-4e6c-4a7e-bcbd-5fcaf978a20c?raw=true" alt="微信图片_20250809110339" width="300" /> <!-- 修改：替换为 HTML img 标签，添加 width 属性 -->
 <img src="https://github.com/user-attachments/assets/32e4a4a1-59cc-40a7-a441-cf60bc1621cf?raw=true" alt="微信图片_20250809110343" width="300" /> <!-- 修改：替换为 HTML img 标签，添加 width 属性 -->
 <img src="https://github.com/user-attachments/assets/0a9407cb-8579-499c-95ae-b914bc5137bb?raw=true" alt="微信图片_20250809110348" width="300" /> <!-- 修改：替换为 HTML img 标签，添加 width 属性 -->
