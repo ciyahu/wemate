@@ -1,5 +1,5 @@
 
-程序完全免费和本地化运行，开启穿透和中转时中转服务器仅中转已加密数据，token储存在本地 
+程序完全免费和本地化运行 
 <div align="left">
   <img src="https://github.com/user-attachments/assets/c064c604-f83b-43c8-8a6b-6ace5846496f?raw=true" alt="图片" width="300" />
 </div>
@@ -30,8 +30,8 @@
 # 安装方法：直接部署镜像：  
 docker-compose.yml已集成原版teslamate和依赖容器  
 把docker-compose.yml放到系统任意目录，运行docker-compose up -d启动  
-teslamate设置和使用请参考官网，新安装的teslamate会数据不全，充电几次后即可正常  
-登录ip:7777管理推送，密码teslamate,可在yml里更改 
+teslamate设置和使用请参考官网，新安装的teslamate会数据不全，多充电几次后即可正常  
+登录ip:7777进入web管理，首次运行默认web密码teslamate 
 <!-- 设置图片宽度为 300px -->
 <img src="https://github.com/user-attachments/assets/9eb71968-4e6c-4a7e-bcbd-5fcaf978a20c?raw=true" alt="微信图片_20250809110339" width="300" /> <!-- 修改：替换为 HTML img 标签，添加 width 属性 -->
 <img src="https://github.com/user-attachments/assets/32e4a4a1-59cc-40a7-a441-cf60bc1621cf?raw=true" alt="微信图片_20250809110343" width="300" /> <!-- 修改：替换为 HTML img 标签，添加 width 属性 -->
