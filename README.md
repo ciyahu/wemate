@@ -1,11 +1,15 @@
 
 程序完全免费和本地化运行，开启穿透和中转时中转服务器仅中转已加密数据，token储存在本地 
 <div align="left">
-  <img src="https://github.com/user-attachments/assets/fb6973b5-970a-49f8-9348-3fe894fab7e0?raw=true" alt="图片" width="300" />
+  <img src="https://github.com/user-attachments/assets/c064c604-f83b-43c8-8a6b-6ace5846496f?raw=true" alt="图片" width="300" />
 </div>
 欢迎大家分享各种体验和bug反馈 <br>
 
 # 更新   <br>
+3.10 界面优化,BUG修复 <br>
+3.6 增加了grafana重置并汉化,增加了3D模型测试,增加了配置上传阿里云 <br>
+3.3 适配teslamate 3.0，增加数据库恢复时强制清空 <br>
+2.11 bug修复,ui微调,grafana汉化增强 <br>
 2026.2.9 ui,时间轴,自定义卡片等大幅优化 <br>
 2025.12.29 &nbsp;&nbsp; 2025年度总结 <br>
 2025.12.9 &nbsp;&nbsp;&nbsp; bug修复 <br>
