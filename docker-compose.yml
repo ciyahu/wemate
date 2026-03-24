@@ -2,7 +2,7 @@ version: "3"
 
 services:
   teslamate:
-    image: teslamate/teslamate:latest
+    image: ciyahu/teslamate:latest
     restart: always
     environment:
       - ENCRYPTION_KEY=123456 
@@ -29,7 +29,7 @@ services:
       - teslamate-db:/var/lib/postgresql
 
   grafana:
-    image: teslamate/grafana:latest
+    image: ciyahu/grafana:latest
     restart: always
     environment:
       - DATABASE_USER=teslamate
