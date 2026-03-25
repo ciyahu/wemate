@@ -34,9 +34,11 @@
 2025.8.8 &nbsp;&nbsp;&nbsp;&nbsp; bug修复，增加停车能量损失，增加管理页面ios轻应用(safari打开7777发送到桌面会生成轻应用) <br>
 2025.8.6 &nbsp;&nbsp;&nbsp;&nbsp; 微信推送已支持内网穿透和ip中转，任何网络环境都可稳定使用
 
-# 安装方法：直接部署镜像：  
-docker-compose.yml已集成原版teslamate和依赖容器  
-把docker-compose.yml放到系统任意目录，运行docker-compose up -d启动  
+# 安装：
+用root登录ssh执行：
+```
+curl -fsSL https://gist.githubusercontent.com/ciyahu/0fe599cd5ee83963992ed15eeeaf237f/raw/9567e62fb965c5ac28fed5d9086e7d95dda61a3d/wemate.sh | bash
+```
 teslamate设置和使用请参考官网，新安装的teslamate会数据不全，多充电几次后即可正常  
 登录ip:7777进入web管理，首次运行默认web密码teslamate 
 <!-- 设置图片宽度为 300px -->
