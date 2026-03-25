@@ -5,6 +5,14 @@
 </div>
 欢迎大家分享各种体验和bug反馈 <br>
 
+# 安装：
+用root登录ssh执行：
+```
+curl -fsSL https://gist.githubusercontent.com/ciyahu/0fe599cd5ee83963992ed15eeeaf237f/raw/9567e62fb965c5ac28fed5d9086e7d95dda61a3d/wemate.sh | bash
+```
+teslamate设置和使用请参考官网，新安装的teslamate会数据不全，多充电几次后即可正常  
+登录ip:7777进入web管理，首次运行默认web密码teslamate 
+
 # 更新   <br>   
 2026.3.24 更新yml镜像地址，3000,4000端口默认中文 <br>
 2026.3.23 大幅提升页面加载速度 <br>
@@ -34,13 +42,7 @@
 2025.8.8 &nbsp;&nbsp;&nbsp;&nbsp; bug修复，增加停车能量损失，增加管理页面ios轻应用(safari打开7777发送到桌面会生成轻应用) <br>
 2025.8.6 &nbsp;&nbsp;&nbsp;&nbsp; 微信推送已支持内网穿透和ip中转，任何网络环境都可稳定使用
 
-# 安装：
-用root登录ssh执行：
-```
-curl -fsSL https://gist.githubusercontent.com/ciyahu/0fe599cd5ee83963992ed15eeeaf237f/raw/9567e62fb965c5ac28fed5d9086e7d95dda61a3d/wemate.sh | bash
-```
-teslamate设置和使用请参考官网，新安装的teslamate会数据不全，多充电几次后即可正常  
-登录ip:7777进入web管理，首次运行默认web密码teslamate 
+
 <!-- 设置图片宽度为 300px -->
 <img src="https://github.com/user-attachments/assets/9eb71968-4e6c-4a7e-bcbd-5fcaf978a20c?raw=true" alt="微信图片_20250809110339" width="300" /> <!-- 修改：替换为 HTML img 标签，添加 width 属性 -->
 <img src="https://github.com/user-attachments/assets/32e4a4a1-59cc-40a7-a441-cf60bc1621cf?raw=true" alt="微信图片_20250809110343" width="300" /> <!-- 修改：替换为 HTML img 标签，添加 width 属性 -->
