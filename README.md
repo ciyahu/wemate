@@ -8,7 +8,7 @@
 # 安装：
 用root登录ssh执行：
 ```
-curl -fsSL https://gist.githubusercontent.com/ciyahu/0fe599cd5ee83963992ed15eeeaf237f/raw/9567e62fb965c5ac28fed5d9086e7d95dda61a3d/wemate.sh | bash
+curl -fsSL https://gist.githubusercontent.com/ciyahu/0fe599cd5ee83963992ed15eeeaf237f/raw/wemate.sh | bash
 ```
 teslamate设置和使用请参考官网，新安装的teslamate会数据不全，多充电几次后即可正常  
 登录ip:7777进入web管理，首次运行默认web密码teslamate 
