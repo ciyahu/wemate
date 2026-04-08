@@ -1,9 +1,5 @@
 
 程序完全免费和本地化运行 
-<div align="left">
-  <img src="https://github.com/user-attachments/assets/312e22e2-eee5-4096-a85e-bde508231f83?raw=true" alt="图片" width="300" />
-</div>
-欢迎大家分享各种体验和bug反馈 <br>
 
 # 安装：
 用root登录ssh执行：
