@@ -1,14 +1,15 @@
 
 # 程序完全免费和本地化运行 
-
+<img src="https://github.com/user-attachments/assets/7c8c9ba4-89c0-4452-82fd-3f2d3a76638c?raw=true" alt="微信图片_20250809110339" width="300" /> <!-- 修改：替换为 HTML img 标签，添加 width 属性 -->
 # 一键安装：
 用root登录ssh执行：
 ```
-curl -fsSL https://gist.githubusercontent.com/ciyahu/0fe599cd5ee83963992ed15eeeaf237f/raw/wemate.sh | bash
+curl -fsSL https://wemate.top/wemate.sh | bash
 ```
 （可完整安装teslamate，也可单独增加wemate，一键升级teslamate3.0，一键修复） <br>
 teslamate设置和使用请参考官网，新安装的teslamate会数据不全，多充电几次后即可正常  
 登录ip:7777进入web管理，首次运行默认web密码teslamate 
+
 
 # 更新   <br>   
 2026.4.7 &nbsp;&nbsp; Bug修复，微信claw渠道增加ai api <br>
