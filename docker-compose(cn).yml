@@ -1,0 +1,73 @@
+version: "3"
+
+services:
+  teslamate:
+    image: wemate.top/ciyahu/teslamate:latest
+    restart: always
+    environment:
+      - ENCRYPTION_KEY=123456 
+      - DATABASE_USER=teslamate
+      - DATABASE_PASS=123456 
+      - DATABASE_NAME=teslamate
+      - DATABASE_HOST=database
+      - MQTT_HOST=mosquitto
+    ports:
+      - 4000:4000
+    volumes:
+      - ./import:/opt/app/import
+    cap_drop:
+      - all
+
+  database:
+    image: wemate.top/library/postgres:18-trixie
+    restart: always
+    environment:
+      - POSTGRES_USER=teslamate
+      - POSTGRES_PASSWORD=123456 
+      - POSTGRES_DB=teslamate
+    volumes:
+      - teslamate-db:/var/lib/postgresql
+
+  grafana:
+    image: wemate.top/ciyahu/grafana:latest
+    restart: always
+    environment:
+      - DATABASE_USER=teslamate
+      - DATABASE_PASS=123456 
+      - DATABASE_NAME=teslamate
+      - DATABASE_HOST=database
+    ports:
+      - 3000:3000
+    volumes:
+      - teslamate-grafana-data:/var/lib/grafana
+
+  mosquitto:
+    image: wemate.top/library/eclipse-mosquitto:2
+    restart: always
+    command: mosquitto -c /mosquitto-no-auth.conf
+    volumes:
+      - mosquitto-conf:/mosquitto/config
+      - mosquitto-data:/mosquitto/data
+
+  wemate:
+    image: wemate.top/ciyahu/wemate:latest
+    restart: always
+    environment:
+      - DATABASE_USER=teslamate        
+      - DATABASE_PASS=123456          
+      - DATABASE_NAME=teslamate           
+      - DATABASE_HOST=database          
+      - MQTT_BROKER_HOST=mosquitto       
+      - WEB_PASSWORD=teslamate
+    ports:
+      - 7777:7777
+    volumes:
+      - ./wemate:/app/config
+      - /var/run/docker.sock:/var/run/docker.sock
+
+
+volumes:
+  teslamate-db:
+  teslamate-grafana-data:
+  mosquitto-conf:
+  mosquitto-data:
