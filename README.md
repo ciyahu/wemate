@@ -1,6 +1,7 @@
 
 # 程序完全免费和本地化运行 
-<img src="https://github.com/user-attachments/assets/7c8c9ba4-89c0-4452-82fd-3f2d3a76638c?raw=true" alt="微信图片_20250809110339" width="300" /> <!-- 修改：替换为 HTML img 标签，添加 width 属性 -->
+<img src="https://github.com/user-attachments/assets/1febfd59-b541-40cd-bb57-adedd7faf1e3?raw=true" alt="微信图片_20250809110339" width="300" /> <!-- 修改：替换为 HTML img 标签，添加 width 属性 -->
+
 # 一键安装：
 用root登录ssh执行：
 ```
