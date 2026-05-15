@@ -1,7 +1,6 @@
 
 # 程序完全免费和本地化运行 
-<img src="https://github.com/user-attachments/assets/assets/f32fa9f0-5eaa-4eb3-bb8d-2bdb24ad67fd?raw=true" alt="20260515143935" width="300" /> <!-- 修改：替换为 HTML img 标签，添加 width 属性 -->
-<img width="939" height="1007" alt="微信图片_20260515144910" src="https://github.com/user-attachments/assets/f32fa9f0-5eaa-4eb3-bb8d-2bdb24ad67fd" />
+<img src="https://github.com/user-attachments/assets/f32fa9f0-5eaa-4eb3-bb8d-2bdb24ad67fd" alt="微信图片_20250809110339" width="300" /> <!-- 修改：替换为 HTML img 标签，添加 width 属性 -->
 
 
 # 一键安装：
