@@ -5,9 +5,9 @@
 # 一键安装：
 用root登录ssh执行：
 ```
-curl -fsSL https://wemate.top/wemate.sh | bash
+curl -fsSL http://wemate.top/wemate.sh | bash
 ```
-（可完整安装teslamate，也可单独增加wemate，一键升级teslamate3.0，一键修复） <br>
+（可完整安装teslamate，也可单独增加wemate，一键升级，一键修复） <br>
 teslamate设置和使用请参考官网，新安装的teslamate会数据不全，多充电几次后即可正常  
 登录ip:7777进入web管理，首次运行默认web密码teslamate 
 
