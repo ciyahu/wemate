@@ -58,7 +58,6 @@ services:
       - DATABASE_NAME=teslamate           
       - DATABASE_HOST=database          
       - MQTT_BROKER_HOST=mosquitto       
-      - WEB_PASSWORD=teslamate
     ports:
       - 7777:7777
     volumes:
