@@ -1,6 +1,9 @@
 
 # 程序完全免费和本地化运行 
-<img src="https://github.com/user-attachments/assets/2d51cce9-4441-4357-8af4-deb6bb024e39" alt="微信图片_20250809110339" width="300" /> <!-- 修改：替换为 HTML img 标签，添加 width 属性 -->
+<img src="https://github.com/user-attachments/assets/cfc36ef2-dc2e-4089-a708-89cded0b2535" alt="微信图片_20250809110339" width="300" /> <!-- 修改：替换为 HTML img 标签，添加 width 属性 -->
+# 开源的硬件屏，带推送提醒，带自动更新（硬件30多元需自购，源码暂时在群里发布，稳定后上传github）
+<img src="https://github.com/user-attachments/assets/6bb6347d-82b8-4b32-b9fe-8f8380bb810b" alt="微信图片_20250809110339" width="300" /> <!-- 修改：替换为 HTML img 标签，添加 width 属性 -->
+<img src="https://github.com/user-attachments/assets/b40279fd-24f3-4e99-96c6-8db2cfa5ce04" alt="微信图片_20250809110339" width="300" /> <!-- 修改：替换为 HTML img 标签，添加 width 属性 -->
 
 # 一键安装：
 用root登录ssh执行：
